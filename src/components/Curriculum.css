@@ -1,0 +1,103 @@
+.curriculum {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .curriculum-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #fa4529;
+    padding-bottom: 1rem;
+  }
+  
+  .curriculum .heading {
+    color: #fa4529;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .skills-section,
+  .education-section {
+    margin-bottom: 2rem;
+  }
+  
+  .skills-section h2,
+  .education-section h2 {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .skill-category {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .skill-category h3 {
+    color: #fa4529;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.3rem;
+  }
+  
+  .skill-category ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill-category li {
+    padding: 0.3rem 0;
+    color: #555;
+  }
+  
+  .education-timeline {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .education-item {
+    flex: 1;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .education-item h3 {
+    color: #fa4529;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-item p {
+    margin: 0.3rem 0;
+    color: #666;
+  }
+  
+  .education-item time {
+    display: block;
+    color: #888;
+    font-style: italic;
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .skills-grid,
+    .education-timeline {
+      grid-template-columns: 1fr;
+      flex-direction: column;
+    }
+  }

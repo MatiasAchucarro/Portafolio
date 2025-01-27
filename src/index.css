@@ -1,0 +1,27 @@
+:root {
+
+  --primary-color: #fa4529;
+  --secondary-color: #282c34;
+  --background-light: #f8f9fa;
+  --text-dark: #333;
+  --text-light: #6c757d;
+  --font-primary: 'Inter',  'Segoe UI', 'Roboto', sans-serif;
+  --font-secondary: 'Georgia', 'Times New Roman', serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  color: var(--text-dark);
+  background-color: var(--background-light);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+
