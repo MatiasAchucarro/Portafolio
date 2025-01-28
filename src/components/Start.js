@@ -16,7 +16,7 @@ export const Start = () => {
             Mi pasión por el aprendizaje continuo y la innovación impulsa cada proyecto que desarrollo.
           </p>
           <div className="cta-buttons">
-            <Link to="/contact" className="primary-btn">
+            <Link to="/contacto" className="primary-btn">
               Contactar
             </Link>
             <Link to="/portafolio" className="secondary-btn">
