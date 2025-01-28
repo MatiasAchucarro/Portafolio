@@ -36,7 +36,7 @@ export const Projects = () => {
 
         <div className='project-actions'>
           <a 
-            href={`https://${project.url}`} 
+            href={`${project.url}`} 
             target='_blank' 
             rel='noopener noreferrer'
             className='project-link'

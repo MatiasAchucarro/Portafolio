@@ -19,7 +19,7 @@ export const Start = () => {
             <Link to="/contact" className="primary-btn">
               Contactar
             </Link>
-            <Link to="/portfolio" className="secondary-btn">
+            <Link to="/portafolio" className="secondary-btn">
               Ver Proyectos
             </Link>
           </div>
